@@ -129,6 +129,11 @@ define([
                 elm = e.srcElement;
             }
 
+            // If clicked TinyMCE toolbar
+            if ($(elm).parents(".mce-panel").length > 0) {
+                return;
+            }
+
             // If clicked outside a tile
             if ($(elm).parents(".mosaic-tile").length === 0) {
 
