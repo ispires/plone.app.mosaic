@@ -1341,8 +1341,7 @@ define([
 
         // Re-init rich text editor after tile has been moved in DOM
         $(".mosaic-new-tile .mosaic-rich-text").each(function () {
-            if (tinyMCE && tinyMCE.get($(this).attr("id"))) {
-                tinyMCE.get($(this).attr("id")).remove();
+            if ($(this).data("pattern-tinymce")) {
                 $(this).mosaicEditor();
             }
         });
