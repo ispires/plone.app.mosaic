@@ -12,7 +12,7 @@ __  http://plone-app-mosaic.s3-website-us-east-1.amazonaws.com/latest/
     :target: http://travis-ci.org/plone/plone.app.mosaic
 
 ..  image:: https://www.herokucdn.com/deploy/button.png
-    :target: https://heroku.com/deploy?template=https://github.com/plone/plone.app.mosaic
+    :target: https://heroku.com/deploy?template=https://github.com/ispires/plone.app.mosaic
 
 Concepts
 --------
