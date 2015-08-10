@@ -1,10 +1,10 @@
 {
-  "name": "Plone Mosaic on Heroku",
-  "description": "A Plone Mosaic technology preview on Heroku. Login with admin:admin.",
-  "repository": "https://github.com/plone/plone.app.mosaic",
+  "name": "ConVoc.xyz App",
+  "description": "The convocation app for anything you need",
+  "repository": "https://github.com/ispires/plone.app.mosaic",
   "logo": "http://www.coactivate.org/projects/plone-marketing/plone-logo-guidelines/plone-vertical-logo.png",
   "keywords": ["plone", "python", "cms"],
-  "website": "http://plone.org",
+  "website": "http://convoc.xyz",
   "env": {
       "BUILDPACK_URL": "https://github.com/plone/plone.app.mosaic"
   },
